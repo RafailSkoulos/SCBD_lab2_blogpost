@@ -47,7 +47,7 @@ The next two screenshots show the load of the cluster and RAM usage.
 
 Those two are as expected, due to the 70% CPU usage and the RAM is related to the task’s input size.
 &nbsp;
-In the last screenshot from Ganglia, we have the component with the higher probability of being the bottleneck. We use the term 'probability' because Amazon does not state their cluster’s network speed. We can observe that it sit around the 10Gigabit mark and it is safe to assume that their connection is the standard 10Gigabit being the main bottleneck to our application.
+In the last screenshot from Ganglia, we have the component with the higher probability of being the bottleneck. We use the term 'probability' because Amazon does not state their cluster’s network speed. We can observe that it sit around the 10Gigabit mark and it is safe to assume that the connection is the main bottleneck to our application.
 
 ![](https://github.com/RafailSkoulos/SCBD_lab2_blogpost/blob/master/group4images/only%20maximise%20large/Screenshot%20from%202018-10-19%2020-39-58.png?raw=true)
 
